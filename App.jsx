@@ -1,6 +1,7 @@
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
+const React = require('react')
 
-class App extends Component {
+class App extends React.Component {
     render () {
         return (
             <div>
@@ -9,7 +10,9 @@ class App extends Component {
         )
     }
 }
-export default App
+
+module.exports = App
+// export default App
 
 /* const React = require('react')
 const createReactClass = require('create-react-class')

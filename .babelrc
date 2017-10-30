@@ -1,4 +1,8 @@
 {
-    "presets": ["env"],
+    "presets": [
+        "env",
+        "es2015",
+        "react"
+    ],
     "plugins": ["transform-react-jsx"]
 }
